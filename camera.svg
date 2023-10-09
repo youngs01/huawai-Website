@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="49" height="49.364" viewBox="0 0 49 49.364">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="组_9" data-name="组 9" transform="translate(-480.492 -2308.636)">
+    <path id="路径_3" data-name="路径 3" class="cls-1" d="M0,0H49V49H0Z" transform="translate(480.492 2308.636)"/>
+    <g id="编组_38" data-name="编组 38" transform="translate(480.75 2320)">
+      <g id="矩形" class="cls-2" transform="translate(0 4)">
+        <rect class="cls-5" width="48" height="34" rx="8"/>
+        <rect class="cls-1" x="1" y="1" width="46" height="32" rx="7"/>
+      </g>
+      <g id="椭圆形" class="cls-3" transform="translate(14 11)">
+        <circle class="cls-5" cx="10" cy="10" r="10"/>
+        <circle class="cls-1" cx="10" cy="10" r="9"/>
+      </g>
+      <circle id="椭圆形-2" data-name="椭圆形" class="cls-4" cx="6" cy="6" r="6" transform="translate(18 15)"/>
+      <g id="矩形-2" data-name="矩形" class="cls-3" transform="translate(9.5)">
+        <rect class="cls-5" width="8" height="6" rx="2"/>
+        <rect class="cls-1" x="1" y="1" width="6" height="4" rx="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

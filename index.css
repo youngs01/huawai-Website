@@ -1,0 +1,461 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: #F5F4F4;
+
+font-family: 'Jost', sans-serif;
+
+}
+
+.row{
+    width: 100;
+}
+
+.logo {
+
+    width: 110px;
+}
+
+.container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* .container-fluidd {
+    padding-left: 50px;
+    padding-right: 50px;
+} */
+
+.fw-boldd {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.logo-heading {
+    font-size: 20px;
+}
+
+
+.border-0 {
+    border-radius: 0;
+}
+
+.navbar {
+    background-color: #F0F2F5;
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+
+}
+
+.container-navbar {
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.navbar-collapse {
+    justify-content: space-between;
+}
+
+
+.nav-btn {
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    color: #333;
+    /* Set the text color */
+    text-decoration: none;
+    /* Remove underlines from the text */
+}
+
+.nav-btn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    /* Set the desired border color */
+    transition: width 0.3s ease;
+    /* Animate width property */
+}
+
+.nav-btn:hover::after {
+    width: 100%;
+    /* Expand the border from left to right on hover */
+}
+
+.svg-decoration {
+    transition: all ease 0.8s;
+
+}
+
+.svg-decoration:hover {
+    transform: rotate(360deg);
+    color: red;
+}
+
+.accordion-heading {
+    font-size: 13px;
+}
+
+.text-gray {
+    color: gray;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.color-golden {
+    color: #c3172e;
+
+}
+
+.chivron {
+    transition: all ease 1s;
+
+}
+
+.chivron-hover:hover .chivron {
+    margin-left: 20px;
+}
+
+
+.equipments-position {
+    background-color: #F0F2F5;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+    overflow-x: visible;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.huawei-eqipment {
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+}
+
+
+.p-laptop {
+    font-size: 15px;
+}
+
+.hero-container {
+    position: relative;
+}
+
+
+
+.fss-6 {
+    font-size: 13px;
+}
+
+.hero-img {
+    max-width: 1000px;
+    text-align: center;
+
+}
+
+.win11-img-setup {
+    position: relative;
+    width: 100%;
+}
+
+.win11-logo {
+    max-width: 250px;
+    position: absolute;
+    bottom: 1px;
+    right: 5px;
+}
+
+.container-series {
+    background-color: #F4F4F5;
+}
+
+.hero-container .row button {
+    width: fit-content;
+    padding: 5px 20px;
+}
+
+.chivron-card-img {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+
+}
+
+.img-card {
+    transition: all ease 1s;
+    overflow: hidden;
+}
+
+.img-card:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+
+.chivron-card-img :hover {
+    transition: all ease 1s;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 0.9s;
+    overflow: hidden;
+}
+
+.chivron-card-img1:hover {
+    transform: translateY(100%);
+
+}
+
+
+.matebook-cards-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.matebook-card-img {
+    max-width: 200px;
+}
+
+
+li {
+    text-decoration: none;
+    display: flex;
+}
+
+.matebook-card-chivron {
+    transition: all ease 0.8s;
+}
+
+.card-text-chivron {
+    transition: all ease 0.8s;
+}
+
+.card-text-chivron:hover {
+
+    margin-left: 10px;
+
+}
+
+.matebook-x-pro-section {
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.mate-w-img {
+    max-width: 350px;
+}
+
+.matebook-e-card-text {
+    display: flex;
+    align-items: center;
+
+}
+
+.atag-chivron-hover {
+    font-weight: 500;
+
+}
+
+.chivron-hover {
+    font-size: 14px;
+    transition: all ease 0.3s;
+    font-weight: 900;
+    animation: myAnimation 1.7s linear infinite;
+}
+
+/* .atag-chivron-hover:hover {
+    margin-left: 10px;
+}
+
+.atag-chivron-hover:hover .chivron-hover{
+    margin-left: 10px;
+}
+ */
+
+/* Define the animation */
+@keyframes myAnimation {
+    0% {
+        padding-left: 10px;
+
+    }
+
+    50% {
+        padding-left: 0;
+    }
+
+    75% {
+        padding-left: 10px;
+
+    }
+
+
+}
+
+.view-all-btn {}
+
+.view-all-svg {
+    background-color: white;
+    color: black;
+    padding: 3px;
+    border-radius: 10px;
+    transition: all ease 0.7s;
+}
+
+.view-all-btn:hover .view-all-svg {
+    transform: rotate(90deg);
+}
+
+.Skin-Snooting-Metallic-Body{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:325px) {
+    .matebook-x-pro-section {
+        justify-content: center;
+    }
+}
+
+
+
+@media screen and (max-width:350px) {
+    .win11-logo {
+        max-width: 150px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:990px) {
+
+    .container-fluidd {
+
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .container-fluid {
+
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+    .container-navbar {
+        padding-right: 0;
+
+    }
+
+    .navbar-collapse {
+        justify-content: start;
+    }
+
+    .container1 {
+        display: none;
+    }
+
+    .navbar {
+        background-color: white;
+    }
+
+    .matebook-e-card-text {
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:334px) {
+
+
+    .equipments-position {
+        border-right: #F0F2F5;
+        justify-content: flex-start;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+
+    .Svg-container svg {
+        width: 40px;
+    }
+
+}
